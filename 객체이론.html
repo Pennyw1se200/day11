@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //현실의 모든 명사(유형, 무형, 개념)는 클래스로 정의할 수 있다.
+        class Dog{
+            constructor(name, age, color){
+                this.name = name;
+                this.age = age;
+                this.color = color;
+            }
+            move(){
+                console.log("멍멍아 야옹해봐");
+            }
+            getAge(){
+                //호출한 곳으로 실행부를 되돌리되 
+                //리턴값을 지니고 간다. 즉 리턴값이있는 함수이다라는것
+                return this.age;  
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
